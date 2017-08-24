@@ -501,6 +501,7 @@ background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, F
   justify-content:center;
   align-content:center;
   align-items:center;
+  animation:initialrotate 300ms ease-in-out 1 forwards;
 }
 .rect
 {
@@ -533,6 +534,17 @@ background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, F
 {
   animation:antirotate 300ms ease-in-out 1 forwards;
   animation-delay:300ms;
+}
+@keyframes initialrotate
+{
+  0%
+  {
+    transform: rotate(90deg);
+  }
+  100%
+  {
+    transform: rotate(0deg);
+  }
 }
 @keyframes rotate
 {
