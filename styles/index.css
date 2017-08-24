@@ -265,35 +265,6 @@ background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, F
   height:150px;
   width:100px;
 }
-progress {
-  /* style rules */
-  background:#D3D3D3;
-  color:white;
-  margin-top:4px;
-  -webkit-transition: width 1.5s ease-in-out;
-  transition: width 1.5s ease-in-out;
-}
-progress::-webkit-progress-bar {
-  /* style rules */
-      background:#D3D3D3;
-  color:white;
-  -webkit-transition: width 1.5s ease-in-out;
-  transition: width 1.5s ease-in-out;
-}
-progress::-webkit-progress-value {
-  /* style rules */
-      background:rgb(23,44,60);
-    color:white;
-  -webkit-transition: width 1.5s ease-in-out;
-  transition: width 1.5s ease-in-out;
-}
-progress::-moz-progress-bar {
-  /* style rules */
-      background:rgb(23,44,60);
-  -webkit-transition: width 1.5s ease-in-out;
-  transition: width 1.5s ease-in-out;
-  color:white;
-}
 #navu
 {
   margin:0;
