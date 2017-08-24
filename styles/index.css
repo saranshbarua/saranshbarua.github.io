@@ -291,7 +291,7 @@ background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, F
 }
 .page3
 {
-  min-height:80vh;
+  min-height:60vh;
   width:100vw;
   overflow-x:hidden;
   display:flex;
