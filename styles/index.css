@@ -167,7 +167,7 @@ body {
   align-items: center;
   margin-bottom: 20px;
   margin-top: 40px;
-  padding-left: 3px;
+  padding-left: 2px;
 }
 
 .box {
@@ -366,6 +366,7 @@ body {
   justify-content: space-around;
   align-content: center;
   align-items: center;
+  margin-top: 7px;
 }
 
 #butt:hover {
