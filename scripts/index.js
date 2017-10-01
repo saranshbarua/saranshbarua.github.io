@@ -15,12 +15,14 @@ window.onscroll=testScroll;
 $('#butt').on('click',function(){
   if(clicked==0)
     {
-      $('.page4').css('display','flex')
+      $('.page4').css('display','flex');
+      $(this).html('Hide');
       clicked=1;
     }
   else if(clicked==1)
     {
       $('.page4').css('display','none');
+      $(this).html('Show me');
       clicked=0;
     }
 })
