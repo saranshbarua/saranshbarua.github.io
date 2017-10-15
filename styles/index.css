@@ -5,6 +5,10 @@ body {
   background-color: black;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .playarea {
   display: flex;
   align-items: center;
