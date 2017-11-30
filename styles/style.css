@@ -191,6 +191,10 @@ body::-webkit-scrollbar {
   width: 100px;
 }
 
+#myNavbar li {
+  font-weight: 600;
+}
+
 #navu {
   margin: 0;
   border-radius: 0;
@@ -274,6 +278,7 @@ body::-webkit-scrollbar {
 .spantext {
   font-family: 'Assistant',sans-serif;
   font-size: 17px;
+  font-weight: 600;
   display: none;
   justify-content: center;
   align-content: center;
