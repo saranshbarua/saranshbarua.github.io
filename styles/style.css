@@ -60,7 +60,7 @@ body::-webkit-scrollbar {
 }
 
 .hoverbox.hover_2:hover ~ .itext:after {
-  content: 'Indian';
+  content: 'Patriot';
   background: #FF9933;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #138808, #FFFFFF, #FF9933);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #138808, #FFFFFF, #FF9933); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
