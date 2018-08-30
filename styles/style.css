@@ -165,7 +165,8 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-left: 110px !important;
   align-content: center;
   align-items: center;
   margin-bottom: 20px;
@@ -599,6 +600,11 @@ body::-webkit-scrollbar {
   }
   .lasttext {
     font-size: 15px !important;
+  }
+
+  .boxes {
+    padding-left: 0px !important;
+    justify-content: center;
   }
 }
 
