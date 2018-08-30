@@ -438,6 +438,16 @@ body::-webkit-scrollbar {
   align-items: center;
 }
 
+.def-link {
+  outline: none;
+  text-decoration: none;
+}
+
+.def-link:focus {
+  outline: none;
+  text-decoration: none;
+}
+
 .icon {
   height: 70px;
   width: 70px;
