@@ -383,6 +383,10 @@ body::-webkit-scrollbar {
   color: white;
 }
 
+#butt:focus {
+  outline: none;
+}
+
 .contactpage {
   min-height: 80vh;
   width: 100vw;
