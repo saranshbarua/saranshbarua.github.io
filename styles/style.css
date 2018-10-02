@@ -595,8 +595,14 @@ body::-webkit-scrollbar {
   }
   .rect {
     height: 20px;
-    width: 50px;
+    width: 56px;
   }
+
+  .iconbase {
+    height: 55px;
+    width: 55px;
+  }
+
   .icon {
     height: 40px;
     width: 40px;
@@ -628,10 +634,10 @@ body::-webkit-scrollbar {
 
 @media only screen and (max-width:320px) {
   .itext {
-    font-size: 17px;
+    font-size: 20px;
   }
   .itext:after {
-    font-size: 18px;
+    font-size: 19px;
   }
 
   .box {
