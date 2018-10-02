@@ -165,9 +165,9 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  padding-left: 110px !important;
-  align-content: center;
+  justify-content: center;
+/*  padding-left: 110px !important;
+*/  align-content: center;
   align-items: center;
   margin-bottom: 20px;
   margin-top: 40px;
