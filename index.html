@@ -1,196 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Saransh Barua</title>
+    <link rel="icon" href="images/favicon (1).ico" type="image" sizes="16x16" />
 
-<head>
-  <!-- Meta -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Saransh Barua</title>
-  <link rel="icon" href="images/favicon (1).ico" type="image" sizes="16x16">
+    <!-- Styles -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto:700|Work+Sans:800"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Assistant:200|Cookie"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-  <!-- Styles -->
-<link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto:700|Work+Sans:800" rel="stylesheet">  <link rel="stylesheet" href="styles/style.css">
-<link href="https://fonts.googleapis.com/css?family=Assistant:200|Cookie" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body>
-  <nav class="navbar navbar-inverse navbar-fixed-top" id="navu">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="https://saranshbarua.github.io" class="navbar-brand" style="font-size:30px;color:white;">Saransh Barua</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a data-scroll href="#">About</a></li>
-        <li><a data-scroll href="#portfolio">Portfolio</a></li>
-        <li><a href="https://drive.google.com/file/d/1OlsVWsBlqughgasRV8dQSpI9DFFmdDXy/view" target="_blank">Resume</a></li>
-        <li><a data-scroll href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="navu">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a
+            href="https://saranshbarua.github.io"
+            class="navbar-brand"
+            style="font-size:30px;color:white;"
+            >Saransh Barua</a
+          >
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a data-scroll href="#">About</a></li>
+            <li><a data-scroll href="#portfolio">Portfolio</a></li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1OlsVWsBlqughgasRV8dQSpI9DFFmdDXy/view"
+                target="_blank"
+                >Resume</a
+              >
+            </li>
+            <li><a data-scroll href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="playarea">
-      <div class='hover_1 hoverbox'></div>
-      <div class='hover_2 hoverbox'></div>
-      <div class='hover_3 hoverbox'></div>
-      <div class='hover_4 hoverbox'></div>
-      <div class='hover_5 hoverbox'></div>
-      <div class='hover_6 hoverbox'></div>
-      <div class='hover_7 hoverbox'></div>
-      <div class='hover_8 hoverbox'></div>
-      <div class='hover_9 hoverbox'></div>
-      <span class="itext">Welcome to Saransh Barua's portfolio. <br /> Saransh is a</span>
+      <!-- <div class='hover_1 hoverbox'></div> -->
+      <div class="hover_2 hoverbox"></div>
+      <div class="hover_3 hoverbox"></div>
+      <div class="hover_4 hoverbox"></div>
+      <div class="hover_5 hoverbox"></div>
+      <div class="hover_6 hoverbox"></div>
+      <div class="hover_7 hoverbox"></div>
+      <!-- <div class='hover_8 hoverbox'></div> -->
+      <div class="hover_9 hoverbox"></div>
+      <span class="itext"
+        >Welcome to Saransh Barua's portfolio. <br />
+        Saransh is a</span
+      >
     </div>
-  <div class="page2">
-    <div class="head2">Skillset</div>
-    <div class="boxes">
-      <div class="box" id="box1">
-        <img src="images/html-min.png" alt="HTML5" style="height: 110px;"/>
-      </div>
-      <div class="box">
-        <img src="images/css3.svg" alt="CSS3" style="height: 110px;" />
+    <div class="page2">
+      <div class="head2">Skillset</div>
+      <div class="boxes">
+        <div class="box" id="box1">
+          <img src="images/html-min.png" alt="HTML5" style="height: 110px;" />
         </div>
-      <div class="box">
-        <img src="https://ng-bootstrap.github.io/img/logo.svg" alt="Bootstrap" style="height: 110px;"/>
-
-      </div>
-      <div class="box">
-        <img src="https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/jquery.svg" alt="jQuery" style="margin-left:15px; height: 110px"/>
-      </div>
-      <div class="box">
-        <img src="images/js-min.png" alt="Javascript" style="height: 110px;" />
-
-      </div>
-      <div class="box">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" alt="Sass" style="height: 110px;" />
-      </div>
-      <div class="box" id="box1">
-        <img src="images/angular.png" alt="angularJS" style="height: 110px; width: 70%;" />
-      </div>
-      <div class="box">
-          <img src="images/git.png" style="height: 110px; width: 75%;" alt="Git" />
+        <div class="box">
+          <img src="images/css3.svg" alt="CSS3" style="height: 110px;" />
         </div>
-      <div class="box">
-        <img src="images/es6.png" alt="ES6" style="height: 60%; width: 60%;"/>
-      </div>
-      <div class="box">
-        <img src="images/react.png" alt="React" style="height: 78%; width: 120%; margin-bottom: 5px;"/>
-      </div>
-      <div class="box">
-        <img src="images/github.png" alt="Github" style="height: 80%; width: 82%; margin-bottom: 7px;" />
-      </div>
-      <div class="box">
-        <img src="images/redux.png" alt="Redux" style="height: 70%; width: 80%;" />
+        <div class="box">
+          <img
+            src="https://ng-bootstrap.github.io/img/logo.svg"
+            alt="Bootstrap"
+            style="height: 110px;"
+          />
+        </div>
+        <div class="box">
+          <img
+            src="https://dev.w3.org/SVG/tools/svgweb/samples/svg-files/jquery.svg"
+            alt="jQuery"
+            style="margin-left:15px; height: 110px"
+          />
+        </div>
+        <div class="box">
+          <img
+            src="images/js-min.png"
+            alt="Javascript"
+            style="height: 110px;"
+          />
+        </div>
+        <div class="box">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg"
+            alt="Sass"
+            style="height: 110px;"
+          />
+        </div>
+        <div class="box" id="box1">
+          <img
+            src="images/angular.png"
+            alt="angularJS"
+            style="height: 110px; width: 70%;"
+          />
+        </div>
+        <div class="box">
+          <img
+            src="images/git.png"
+            style="height: 110px; width: 75%;"
+            alt="Git"
+          />
+        </div>
+        <div class="box">
+          <img
+            src="images/es6.png"
+            alt="ES6"
+            style="height: 60%; width: 60%;"
+          />
+        </div>
+        <div class="box">
+          <img
+            src="images/react.png"
+            alt="React"
+            style="height: 78%; width: 120%; margin-bottom: 5px;"
+          />
+        </div>
+        <div class="box">
+          <img
+            src="images/github.png"
+            alt="Github"
+            style="height: 80%; width: 82%; margin-bottom: 7px;"
+          />
+        </div>
+        <div class="box">
+          <img
+            src="images/redux.png"
+            alt="Redux"
+            style="height: 70%; width: 80%;"
+          />
+        </div>
       </div>
     </div>
-  </div>
-  <div class="page3" id="portfolio">
-    <div class="head3">
-      <span style="font-size:40px;">Portfolio</span><br />
-      <p style="font-size:20px;">I am into web design for a few months now, and I made some stuff.</p><br />
+    <div class="page3" id="portfolio">
+      <div class="head3">
+        <span style="font-size:40px;">Portfolio</span><br />
+        <p style="font-size:20px;">
+          I am into web design for a few months now, and I made some stuff.
+        </p>
+        <br />
         <span style="font-size:18px;">Want to see my work?</span>
+      </div>
+      <div class="page3butt"><button id="butt">Show me</button></div>
     </div>
-    <div class="page3butt"><button id="butt">Show me</button></div>
-  </div>
-  <div class="page4">
+    <div class="page4">
+      <a
+        class="def-link"
+        href="https://visualai.io/inspection#/login"
+        target="_blank"
+      >
+        <div class="frame f5">
+          <span class="spanhead">visualAI Inspection</span
+          ><span class="spantext"
+            >Developed frontend for visualAI Inspection tool: a platform to
+            transform your drone images into actionable insights.
+          </span>
+        </div>
+      </a>
 
-    <a class="def-link" href="https://visualai.io/inspection#/login" target="_blank">
-      <div class="frame f5">
-        <span class="spanhead">visualAI Inspection</span><span class="spantext">Developed frontend for visualAI Inspection tool: a platform to transform your drone images into actionable insights. </span>
-      </div>
-    </a>
+      <a
+        class="def-link"
+        href="https://saranshbarua.github.io/prototypeAI-static/"
+        target="_blank"
+      >
+        <div class="frame f6">
+          <span class="spanhead">PrototypeAI</span
+          ><span class="spantext"
+            >A social network for like minded people who want to start their own
+            business.</span
+          >
+        </div>
+      </a>
 
-    <a class="def-link" href="https://saranshbarua.github.io/prototypeAI-static/" target="_blank">
-      <div class="frame f6">
-        <span class="spanhead">PrototypeAI</span><span class="spantext">A social network for like minded people who want to start their own business.</span>
-      </div>
-    </a>
+      <a
+        class="def-link"
+        href="https://jiitimpressions2019.netlify.com"
+        target="_blank"
+      >
+        <div class="frame f4">
+          <span class="spanhead">Impressions 2019</span
+          ><span class="spantext"
+            >The official website for Impressions 2019 built on react.</span
+          >
+        </div>
+      </a>
 
-    <a class="def-link" href="https://jiitimpressions2019.netlify.com" target="_blank">
-      <div class="frame f4">
-        <span class="spanhead">Impressions 2019</span><span class="spantext">The official website for Impressions 2019 built on react.</span>
-      </div>
-    </a>
+      <a class="def-link" href="https://osdc.surge.sh/" target="_blank">
+        <div class="frame f3">
+          <span class="spanhead">OSDC Website</span
+          ><span class="spantext"
+            >The official website for OSDC[under construction]</span
+          >
+        </div>
+      </a>
 
-    <a class="def-link" href="https://osdc.surge.sh/" target="_blank">
-      <div class="frame f3">
-        <span class="spanhead">OSDC Website</span><span class="spantext">The official website for OSDC[under construction]</span>
-      </div>
-    </a>
+      <a
+        class="def-link"
+        href="https://codepen.io/saranshbarua/full/XzXvKm/"
+        target="_blank"
+      >
+        <div class="frame f2">
+          <span class="spanhead">Explore Codepen</span
+          ><span class="spantext">Multiscroll based User Interface</span>
+        </div>
+      </a>
 
-    <a class="def-link" href="https://codepen.io/saranshbarua/full/XzXvKm/" target="_blank">
-      <div class="frame f2">
-        <span class="spanhead">Explore Codepen</span><span class="spantext">Multiscroll based User Interface</span>
-      </div>
-    </a>
+      <a
+        href="https://codepen.io/saranshbarua/full/KqoOom/"
+        class="def-link"
+        target="_blank"
+      >
+        <div class="frame f1">
+          <span class="spanhead">Instagram SVG</span
+          ><span class="spantext"
+            >instagram animated logo using SVG and anime.js</span
+          >
+        </div>
+      </a>
 
-    <a href="https://codepen.io/saranshbarua/full/KqoOom/" class="def-link" target="_blank">
-      <div class="frame f1">
-        <span class="spanhead">Instagram SVG</span><span class="spantext">instagram animated logo using SVG and anime.js</span>
-      </div>
-    </a>
+      <a
+        class="def-link"
+        href="https://codepen.io/saranshbarua/full/mwXpPd/"
+        target="_blank"
+      >
+        <div class="frame f4">
+          <span class="spanhead">Wikisearch</span
+          ><span class="spantext">A wikipedia search results demonstrator</span>
+        </div>
+      </a>
 
-    <a class="def-link" href="https://codepen.io/saranshbarua/full/mwXpPd/" target="_blank">
-      <div class="frame f4">
-        <span class="spanhead">Wikisearch</span><span class="spantext">A wikipedia search results demonstrator</span>
-      </div>
-    </a>
+      <a
+        class="def-link"
+        href="https://codepen.io/saranshbarua/full/WEEERr/"
+        target="_blank"
+      >
+        <div class="frame f6">
+          <span class="spanhead">Weather App</span
+          ><span class="spantext">app to show weather in your location.</span>
+        </div>
+      </a>
 
-    <a class="def-link" href="https://codepen.io/saranshbarua/full/WEEERr/" target="_blank">
-      <div class="frame f6">
-        <span class="spanhead">Weather App</span><span class="spantext">app to show weather in your location.</span>
-      </div>
-    </a>
+      <a
+        class="def-link"
+        href="https://saranshbarua.github.io/to-do-app/"
+        target="_blank"
+      >
+        <div class="frame f7">
+          <span class="spanhead">To Do List</span
+          ><span class="spantext">A basic to do list made in react.</span>
+        </div>
+      </a>
 
-    <a class="def-link" href="https://saranshbarua.github.io/to-do-app/" target="_blank">
-      <div class="frame f7">
-        <span class="spanhead">To Do List</span><span class="spantext">A basic to do list made in react.</span>
-      </div>
-    </a>
-
-    <a class="def-link" href="https://codepen.io/saranshbarua/full/QgmjJj/" target="_blank">
-      <div class="frame f8">
-        <span class="spanhead">Twitch status</span><span class="spantext">app to show twitch streamers status</span>
-      </div>
-    </a>
-  </div>
-
-
-  <div class="contactpage" id="contact">
-    <div class="contacthead">Lets Work Together<br><span style="font-size:17px; text-align:center; ">Want to discuss a project, or a life experience? I am always willing to listen.</span></div>
-    <div class="icons">
-      <div class="iconbase"><div class="rect"><div class="icon"><a href="mailto:saranshbarua@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-</div></div></div>
-      <div class="iconbase"><div class="rect"><div class="icon"><a href="https://www.facebook.com/saransh.barua" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-</div></div></div>
-      <div class="iconbase"><div class="rect"><div class="icon"><a href="https://www.linkedin.com/in/saransh-barua-1571b4b8/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-</div></div></div>
-      <div class="iconbase"><div class="rect"><div class="icon"><a href="https://codepen.io/saranshbarua/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a>
-</div></div></div>
-      <div class="iconbase"><div class="rect"><div class="icon"><a href="https://github.com/saranshbarua" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-</div></div></div>
+      <a
+        class="def-link"
+        href="https://codepen.io/saranshbarua/full/QgmjJj/"
+        target="_blank"
+      >
+        <div class="frame f8">
+          <span class="spanhead">Twitch status</span
+          ><span class="spantext">app to show twitch streamers status</span>
+        </div>
+      </a>
     </div>
-  </div>
-  <div class="lasttext">Coded with &nbsp; <i class="fa fa-heart heart" aria-hidden="true"></i>&nbsp; by @saranshbarua.
-</div>
 
-  <!-- Scripts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="scripts/components.js"></script>
-  <script src="scripts/index.js"></script>
-  <script src="scripts/smooth-scroll.js"></script>
-  <script>
-    smoothScroll.init();
-  </script>
-</body>
+    <div class="contactpage" id="contact">
+      <div class="contacthead">
+        Lets Work Together<br /><span
+          style="font-size:17px; text-align:center; "
+          >Want to discuss a project, or a life experience? I am always willing
+          to listen.</span
+        >
+      </div>
+      <div class="icons">
+        <div class="iconbase">
+          <div class="rect">
+            <div class="icon">
+              <a href="mailto:saranshbarua@gmail.com" target="_blank"
+                ><i class="fa fa-envelope" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="iconbase">
+          <div class="rect">
+            <div class="icon">
+              <a href="https://www.facebook.com/saransh.barua" target="_blank"
+                ><i class="fa fa-facebook" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="iconbase">
+          <div class="rect">
+            <div class="icon">
+              <a
+                href="https://www.linkedin.com/in/saransh-barua-1571b4b8/"
+                target="_blank"
+                ><i class="fa fa-linkedin" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="iconbase">
+          <div class="rect">
+            <div class="icon">
+              <a href="https://codepen.io/saranshbarua/" target="_blank"
+                ><i class="fa fa-codepen" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="iconbase">
+          <div class="rect">
+            <div class="icon">
+              <a href="https://github.com/saranshbarua" target="_blank"
+                ><i class="fa fa-github" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lasttext">
+      Coded with &nbsp;
+      <i class="fa fa-heart heart" aria-hidden="true"></i>&nbsp; by
+      @saranshbarua.
+    </div>
 
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="scripts/components.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/smooth-scroll.js"></script>
+    <script>
+      smoothScroll.init();
+    </script>
+  </body>
 </html>
