@@ -28,18 +28,28 @@ body::-webkit-scrollbar {
   text-align: center;
   font-size: 60px;
   white-space: nowrap;
-  font-family: 'Assistant', sans-serif ;
+  font-family: "Assistant", sans-serif;
 }
 
 .itext:after {
-  content: 'Web designer';
+  content: "Web designer";
   font-size: 60px;
   margin-left: 3%;
   background: #ddd6f3;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 100%);
+  background: -webkit-linear-gradient(
+    90deg,
+    #00c0ff 0%,
+    #ffcf00 49%,
+    #fc4f4f 100%
+  );
   /* Chrome 10-25, Safari 5.1-6 */
-  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 100%);
+  background-image: linear-gradient(
+    90deg,
+    #00c0ff 0%,
+    #ffcf00 49%,
+    #fc4f4f 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -48,81 +58,156 @@ body::-webkit-scrollbar {
   width: 25%;
   height: 100vh;
   position: relative;
-  z-index:10;
+  z-index: 10;
 }
 
 .hoverbox.hover_1:hover ~ .itext:after {
-  content: 'Math nerd';
-  background: #833ab4;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  content: "Math nerd";
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
 }
 
 .hoverbox.hover_2:hover ~ .itext:after {
-  content: 'Patriot';
-  background: #FF9933;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #138808, #FFFFFF, #FF9933);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #138808, #FFFFFF, #FF9933); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  content: "Patriot";
+  background: #ff9933; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #138808,
+    #ffffff,
+    #ff9933
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #138808,
+    #ffffff,
+    #ff9933
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
 }
 
 .hoverbox.hover_3:hover ~ .itext:after {
-  content: 'Music lover';
-  background: #fe8c00;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  content: "Music lover";
+  background: #fe8c00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
 }
 
 .hoverbox.hover_4:hover ~ .itext:after {
-  content: 'Front-end developer';
-  background: #00c3ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  content: "Front-end developer";
+  background: #00c3ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffff1c,
+    #00c3ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffff1c,
+    #00c3ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
 }
 
 .hoverbox.hover_5:hover ~ .itext:after {
-  content: 'Ambivert';
-  background: #FF5F6D;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  content: "Ambivert";
+  background: #ff5f6d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc371,
+    #ff5f6d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc371,
+    #ff5f6d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
 }
 
 .hoverbox.hover_6:hover ~ .itext:after {
-  content: 'NFS freak';
-  background: #00c6ff;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  content: "NFS freak";
+  background: #00c6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0072ff,
+    #00c6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0072ff,
+    #00c6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
 }
 
 .hoverbox.hover_7:hover ~ .itext:after {
-  content: 'Open source enthusiast';
-  background: #F7971E;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  content: "Open source enthusiast";
+  background: #f7971e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffd200,
+    #f7971e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffd200,
+    #f7971e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
 }
 
 .hoverbox.hover_8:hover ~ .itext:after {
-  content: 'Drummer';
-  background: #cb2d3e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  content: "Drummer";
+  background: #cb2d3e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ef473a,
+    #cb2d3e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ef473a,
+    #cb2d3e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
 }
 
 .hoverbox.hover_9:hover ~ .itext:after {
-  content: 'Wizard';
-  background: #56ab2f;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  content: "Wizard";
+  background: #56ab2f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a8e063,
+    #56ab2f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a8e063,
+    #56ab2f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
 }
-
 
 .itext {
   animation: appear 1s ease-in-out 1;
@@ -155,7 +240,7 @@ body::-webkit-scrollbar {
 }
 
 .head2 {
-  font-family: 'Assistant',sans-serif;
+  font-family: "Assistant", sans-serif;
   font-size: 40px;
   color: white;
   margin-bottom: 0px;
@@ -166,8 +251,9 @@ body::-webkit-scrollbar {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-/*  padding-left: 110px !important;
-*/  align-content: center;
+  /*  padding-left: 110px !important;
+*/
+  align-content: center;
   align-items: center;
   margin-bottom: 20px;
   margin-top: 40px;
@@ -176,7 +262,7 @@ body::-webkit-scrollbar {
 
 .box {
   background-color: white;
-  box-shadow:0 4px 7px rgba(0, 0, 0, 0.3), 0 0 9px rgba(0, 0, 0, 0.4) inset;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.3), 0 0 9px rgba(0, 0, 0, 0.4) inset;
   height: 170px;
   width: 150px;
   margin: 5px;
@@ -201,7 +287,7 @@ body::-webkit-scrollbar {
   border-radius: 0;
   display: none;
   background-color: black;
-  font-family: 'Assistant',sans-serif;
+  font-family: "Assistant", sans-serif;
   font-size: 25px;
 }
 
@@ -229,7 +315,7 @@ body::-webkit-scrollbar {
   align-content: center;
   align-items: center;
   background-color: white;
-  font-family: 'Assistant',sans-serif;
+  font-family: "Assistant", sans-serif;
   color: black;
   padding: 20px;
 }
@@ -244,7 +330,7 @@ body::-webkit-scrollbar {
   align-content: center;
   align-items: center;
   background-color: white;
-  font-family: 'Assistant',sans-serif;
+  font-family: "Assistant", sans-serif;
   color: black;
   padding: 20px;
   display: none;
@@ -272,12 +358,12 @@ body::-webkit-scrollbar {
 }
 
 .spanhead {
-  font-family: 'Assistant',sans-serif;
+  font-family: "Assistant", sans-serif;
   font-size: 30px;
 }
 
 .spantext {
-  font-family: 'Assistant',sans-serif;
+  font-family: "Assistant", sans-serif;
   font-size: 17px;
   font-weight: 600;
   display: none;
@@ -285,7 +371,6 @@ body::-webkit-scrollbar {
   align-content: center;
   align-items: center;
 }
-
 
 .f1:hover {
   background-color: #f50057;
@@ -352,7 +437,7 @@ body::-webkit-scrollbar {
   justify-content: center;
   align-content: center;
   align-items: center;
-  font-family: 'Assistant',sans-serif;
+  font-family: "Assistant", sans-serif;
 }
 
 .page3butt {
@@ -369,7 +454,7 @@ body::-webkit-scrollbar {
   border: 2px solid black;
   border-radius: 0.2em;
   background-color: white;
-  font-family: 'Lato',sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 17px;
   display: flex;
   justify-content: space-around;
@@ -391,7 +476,7 @@ body::-webkit-scrollbar {
   min-height: 80vh;
   width: 100vw;
   background-color: black;
-  color: white; 
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -400,7 +485,7 @@ body::-webkit-scrollbar {
 }
 
 .contacthead {
-  font-family: 'Assistant',sans-serif;
+  font-family: "Assistant", sans-serif;
   font-size: 40px;
   color: white;
   display: flex;
@@ -507,7 +592,7 @@ body::-webkit-scrollbar {
   width: 100vw;
   background-color: white;
   color: black;
-  font-family: 'Assistant',sans-serif;
+  font-family: "Assistant", sans-serif;
   font-size: 22px;
   display: flex;
   flex-direction: row;
@@ -519,22 +604,45 @@ body::-webkit-scrollbar {
 
 .heart {
   color: red;
-  animation: heart 350ms cubic-bezier(0,.77,1,.4) infinite alternate;
+  animation: heart 350ms cubic-bezier(0, 0.77, 1, 0.4) infinite alternate;
 }
 
 @keyframes heart {
-  0% 
-  {
+  0% {
     transform: scale(1);
   }
-  100%{
+  100% {
     transform: scale(1.18);
   }
 }
 
+.future-notice {
+  position: fixed;
+  z-index: 13;
+  min-height: 100px;
+  width: 350px;
+  bottom: 10px;
+  right: 10px;
+  background-color: white;
+  border-radius: 5px;
+  background: #00c6ff;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background-image: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px 20px;
+  color: black;
+}
+
 /*   Responsive queries   */
 
-@media only screen and (max-width:1027px){
+@media only screen and (max-width: 1027px) {
   .itext {
     font-size: 40px;
   }
@@ -543,7 +651,7 @@ body::-webkit-scrollbar {
   }
 }
 
-@media only screen and (max-width:748px){
+@media only screen and (max-width: 748px) {
   .itext {
     font-size: 35px;
   }
@@ -552,7 +660,7 @@ body::-webkit-scrollbar {
   }
 }
 
-@media only screen and (max-width:651px){
+@media only screen and (max-width: 651px) {
   .itext {
     font-size: 27px;
   }
@@ -561,7 +669,7 @@ body::-webkit-scrollbar {
   }
 }
 
-@media only screen and (max-width:651px) {
+@media only screen and (max-width: 651px) {
   .itext {
     font-size: 27px;
   }
@@ -570,7 +678,7 @@ body::-webkit-scrollbar {
   }
 }
 
-@media only screen and (max-width:530px) {
+@media only screen and (max-width: 530px) {
   .itext {
     font-size: 22px;
   }
@@ -579,7 +687,7 @@ body::-webkit-scrollbar {
   }
 }
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width: 500px) {
   .itext {
     font-size: 20px;
   }
@@ -588,7 +696,7 @@ body::-webkit-scrollbar {
   }
 }
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width: 400px) {
   .iconbase {
     height: 50px;
     width: 50px;
@@ -623,7 +731,7 @@ body::-webkit-scrollbar {
   }
 }
 
-@media only screen and (max-width:390px) {
+@media only screen and (max-width: 390px) {
   .itext {
     font-size: 22px;
   }
@@ -632,7 +740,7 @@ body::-webkit-scrollbar {
   }
 }
 
-@media only screen and (max-width:320px) {
+@media only screen and (max-width: 320px) {
   .itext {
     font-size: 20px;
   }
@@ -645,5 +753,3 @@ body::-webkit-scrollbar {
     height: 140px;
   }
 }
-
-
